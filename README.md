@@ -24,3 +24,16 @@ elmo_vec[:vectors[elmo_layer].shape[0],:vectors[elmo_layer].shape[1]]=vectors[el
 elmo_vec = np.expand_dims(elmo_test_x, axis=0)  
 # elmo_vec contains the vectors for each token in the sentence
 ```
+**Citation**
+
+If you use Urdu ELMo embeddings in your research then please cite the following paper:
+```
+@article{ehsan2021improving,
+  title={Improving Phrase Chunking by using Contextualized Word Embeddings for a Morphologically Rich Language},
+  author={Ehsan, Toqeer and Khalid, Javairia and Ambreen, Saadia and Mustafa, Asad and Hussain, Sarmad},
+  journal={Arabian Journal for Science and Engineering},
+  pages={1--19},
+  year={2021},
+  publisher={Springer}
+}
+```
