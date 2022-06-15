@@ -11,7 +11,7 @@ weights.hdf5
 **Usage**
 ```
 print("Loading pre-trained ELMo embeddings...")
-sent_length = 100
+sent_length = 100 # can be changed
 elmo_dim = 128  # trained for 128 dimensions
 elmo_layer = 2  # layers are 0,1,2
 
