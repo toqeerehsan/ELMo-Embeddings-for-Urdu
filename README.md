@@ -15,7 +15,7 @@ sent_length = 100 # can be changed
 elmo_dim = 128  # trained for 128 dimensions
 elmo_layer = 2  # layers are 0,1,2
 
-sentence = "".strip().split()
+sentence = "اردو آسان زبان ہے ۔".strip().split()
 from allennlp.commands.elmo import ElmoEmbedder
 elmo = ElmoEmbedder(options_file='urdu_elmo_220m/options.json',weight_file='urdu_elmo_220m/weights.hdf5')
 vectors = elmo.embed_sentence(sentence)
